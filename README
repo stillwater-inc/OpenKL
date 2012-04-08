@@ -1,0 +1,9 @@
+El Dorado Hills, CA, January 2008
+
+OpenKL is a dynamic run-time for parallel constraint solvers. 
+
+Writing parallel constrains solvers is hard enough, but tuning them for specific microarchitectures from Intel, AMD, IBM, NVIDIA, ARM, or TI is down right impossible.
+
+Each micro-architecture creates unique computational trade-offs as all machines exhibit different data flow constaints. It is not uncommon for a solver to run at only 5% of the peak performance of a machine.
+
+The goal of OpenKL is to extend the high level linear algebra framework defined by MTL4, which is a standard C++ library for linear algebra, and add the dynamic algorithm selection to adjust the execution to the best possible performance given the underlying hardware.
